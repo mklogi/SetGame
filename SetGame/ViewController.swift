@@ -10,12 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let card: [Card] = []
-    @IBOutlet var CardButtons: [UIView]!
-    
+    var cards = [Card]()
+   
     override func viewDidLoad() {
+        
+        for c in 1...3 {
+            for s in 1...3 {
+                for n in 1...3 {
+                    for f in 1...3 {
+                        _ = cards.append(Card(with: c, s, n, f))
+                    }
+                }
+            }
+        }
+        
+        
+        
         super.viewDidLoad()
-        print(card.description)
+        
+        
+        print(cards.description)
+        print(cards.count)
+
+  
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

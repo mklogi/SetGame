@@ -18,7 +18,7 @@ struct Card: Hashable, Equatable, CustomStringConvertible {
     }
     
     var description: String {
-       return " "
+        return "color: \(color), shape: \(shape), number: \(number), fill: \(fill)"
     }
     
     private var identifier: Int
@@ -30,7 +30,48 @@ struct Card: Hashable, Equatable, CustomStringConvertible {
         return factoryIdentifier
     }
     
-    init(){
-        self.identifier = Card.getUniqueIdentifier()
+    
+    
+    let color: Color
+    let shape: Shape
+    let number: Number
+    let fill: Fill
+    
+
+    
+    enum Color: Int {
+        case red = 1
+        case green
+        case blue
+        
     }
+    enum Shape: Int {
+        case oval = 1
+        case wave
+        case rectangle
+        
+    }
+    enum Number: Int {
+        case one = 1
+        case two
+        case three
+        
+    }
+    enum Fill: Int {
+        case full = 1
+        case half
+        case empty
+        
+    }
+    
+    
+    init(with c: Int, _ s: Int, _ n: Int, _ f: Int) {
+      
+        color = Card.Color(rawValue: c)!
+        shape = Card.Shape(rawValue: s)!
+        number = Card.Number(rawValue: n)!
+        fill = Card.Fill(rawValue: f)!
+        identifier = Card.getUniqueIdentifier()
+    }
+    
 }

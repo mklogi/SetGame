@@ -13,6 +13,7 @@
 		39FF0A70214145D7006E5EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FF0A6F214145D7006E5EA4 /* Assets.xcassets */; };
 		39FF0A73214145D7006E5EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FF0A71214145D7006E5EA4 /* LaunchScreen.storyboard */; };
 		39FF0A7C214146E6006E5EA4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF0A7B214146E6006E5EA4 /* Card.swift */; };
+		39FF0A7E214150FB006E5EA4 /* CardArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF0A7D214150FB006E5EA4 /* CardArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		39FF0A72214145D7006E5EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39FF0A74214145D7006E5EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39FF0A7B214146E6006E5EA4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		39FF0A7D214150FB006E5EA4 /* CardArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				39FF0A7A21414645006E5EA4 /* Supporting Files */,
 				39FF0A6A214145D7006E5EA4 /* ViewController.swift */,
+				39FF0A7D214150FB006E5EA4 /* CardArray.swift */,
 				39FF0A7B214146E6006E5EA4 /* Card.swift */,
 				39FF0A6C214145D7006E5EA4 /* Main.storyboard */,
 				39FF0A6F214145D7006E5EA4 /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				39FF0A6B214145D7006E5EA4 /* ViewController.swift in Sources */,
 				39FF0A7C214146E6006E5EA4 /* Card.swift in Sources */,
 				39FF0A69214145D7006E5EA4 /* AppDelegate.swift in Sources */,
+				39FF0A7E214150FB006E5EA4 /* CardArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
