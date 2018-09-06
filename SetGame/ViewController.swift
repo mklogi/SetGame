@@ -10,29 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var cards = [Card]()
+    
+    @IBOutlet weak var cardButton: UIButton!
+    
+    
+    
+    var cards = CardArray()
    
     override func viewDidLoad() {
         
-        for c in 1...3 {
-            for s in 1...3 {
-                for n in 1...3 {
-                    for f in 1...3 {
-                        _ = cards.append(Card(with: c, s, n, f))
-                    }
-                }
-            }
-        }
         
         
         
-        super.viewDidLoad()
+        let color = ["red" : #colorLiteral(red: 1, green: 0, blue: 0.009361755543, alpha: 1), "green" : #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1), "blue" : #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)]
+        let shape = ["triangle": "▲", "circle" : "●","square" : "■"]
         
-        
-        print(cards.description)
-        print(cards.count)
 
-  
+        super.viewDidLoad()
+
+        cards.draw(numberOfCardsToDraw: .twelve)
+        
+        cardButton.setTitleColor(color["red"], for: .normal)
+        cardButton.setTitle(shape["triangle"], for: .normal)
         
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -42,7 +41,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    
+   
+    
+    
+    
+    
 
 }
 

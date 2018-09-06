@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39FDD978214182AD004C9CBC /* ButtonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FDD977214182AD004C9CBC /* ButtonCard.swift */; };
 		39FF0A69214145D7006E5EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF0A68214145D7006E5EA4 /* AppDelegate.swift */; };
 		39FF0A6B214145D7006E5EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF0A6A214145D7006E5EA4 /* ViewController.swift */; };
 		39FF0A6E214145D7006E5EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FF0A6C214145D7006E5EA4 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39FDD977214182AD004C9CBC /* ButtonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCard.swift; sourceTree = "<group>"; };
 		39FF0A65214145D7006E5EA4 /* SetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FF0A68214145D7006E5EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39FF0A6A214145D7006E5EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				39FF0A7A21414645006E5EA4 /* Supporting Files */,
 				39FF0A6A214145D7006E5EA4 /* ViewController.swift */,
+				39FDD977214182AD004C9CBC /* ButtonCard.swift */,
 				39FF0A7D214150FB006E5EA4 /* CardArray.swift */,
 				39FF0A7B214146E6006E5EA4 /* Card.swift */,
 				39FF0A6C214145D7006E5EA4 /* Main.storyboard */,
@@ -154,6 +157,7 @@
 				39FF0A7C214146E6006E5EA4 /* Card.swift in Sources */,
 				39FF0A69214145D7006E5EA4 /* AppDelegate.swift in Sources */,
 				39FF0A7E214150FB006E5EA4 /* CardArray.swift in Sources */,
+				39FDD978214182AD004C9CBC /* ButtonCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

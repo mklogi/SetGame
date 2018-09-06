@@ -39,16 +39,29 @@ struct Card: Hashable, Equatable, CustomStringConvertible {
     
 
     
-    enum Color: Int {
+    enum Color: Int, CustomStringConvertible {
+        
         case red = 1
         case green
         case blue
         
+        var description: String {
+            switch self {
+            case .red: return "red"
+            case .green: return "green"
+            case .blue: return "blue"
+            }
+        }
+        
+       
+        
+        //TODO: make switch like above
+        
     }
     enum Shape: Int {
-        case oval = 1
-        case wave
-        case rectangle
+        case triangle = 1
+        case circle
+        case square
         
     }
     enum Number: Int {
