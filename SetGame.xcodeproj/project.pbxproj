@@ -54,14 +54,22 @@
 		39FF0A67214145D7006E5EA4 /* SetGame */ = {
 			isa = PBXGroup;
 			children = (
-				39FF0A68214145D7006E5EA4 /* AppDelegate.swift */,
+				39FF0A7A21414645006E5EA4 /* Supporting Files */,
 				39FF0A6A214145D7006E5EA4 /* ViewController.swift */,
 				39FF0A6C214145D7006E5EA4 /* Main.storyboard */,
 				39FF0A6F214145D7006E5EA4 /* Assets.xcassets */,
-				39FF0A71214145D7006E5EA4 /* LaunchScreen.storyboard */,
 				39FF0A74214145D7006E5EA4 /* Info.plist */,
 			);
 			path = SetGame;
+			sourceTree = "<group>";
+		};
+		39FF0A7A21414645006E5EA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39FF0A68214145D7006E5EA4 /* AppDelegate.swift */,
+				39FF0A71214145D7006E5EA4 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
