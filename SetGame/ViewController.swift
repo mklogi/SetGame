@@ -9,9 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    let card: [Card] = []
+    @IBOutlet var CardButtons: [UIView]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(card.description)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
